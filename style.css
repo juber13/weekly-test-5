@@ -1,0 +1,229 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    scroll-behavior: smooth;
+    overflow-x: hidden
+}
+
+.main{
+    width: 100%;
+}
+
+.header{
+    width: 100%;
+    background: #0F1111;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.left img{
+    width: 100px;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.flex{
+    display: flex;
+    gap: 1px;
+    flex-direction: column;
+}
+
+.right{
+    display: flex;
+    gap: 70px;
+}
+.deliver{
+    color: #aaa3a3;
+    margin-left: 10px;
+    font-weight: 300;
+}
+
+.small-text{
+    font-weight: 400;
+    font-size: 13px;
+}
+.large-text{
+    font-size: 16px;
+}
+.center input{
+    width: 500px;
+    position: relative;   
+    padding: 15px;
+    border: none;
+    outline: none;
+}
+
+.center button{
+    padding: 15px;
+    border: none;
+    outline: none;
+}
+
+.center button:last-child{
+    background: #FEBD68;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.center button:first-child{
+    background: #F3F3F3;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}
+
+.fa-magnifying-glass{
+    font-size: 1rem;
+}
+
+.cart{
+    display: flex !important;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.cart i{
+    font-size:2rem;
+}
+
+
+/* bottom header */
+
+.bottom-header{
+    width: 100%;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    background: #222F3D;
+    color: #fff;
+    gap: 505px;
+}
+
+.items{
+    display: flex;
+    gap: 15px;
+    cursor: pointer;
+
+}
+
+
+/* home */
+
+.home{
+    width: 100%;
+    height: 400px;
+    background-color: red;
+}
+
+.home img{
+    width: 100%;
+    height: 100%;
+    object-fit:fill;
+}
+
+.cards{
+    /* margin: 40px 0; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #F3F3F3;
+    gap: 2px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.card img{
+    width: 80%;
+    height: 300px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.card{
+    width: 300px;
+    height: 450px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ddd;
+    gap: 8px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.card *:hover{
+    transform: scale(1.1);
+}
+
+.card h2{
+    font-size: 22px;
+}
+
+
+.card a{
+    font-size: 15px;
+    color: blue;
+    font-weight: normal;
+    text-align: left;
+}
+.back-to-top{
+    width: 100%;
+    padding: 20px 0px;
+    text-align: center;
+    background: #37475A;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+
+.back-to-top a{
+    cursor: pointer;
+}
+.footer{
+    width: 100%;
+    background: #232F3E;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+    color: #e0d5d5;
+}
+
+.large-item{
+    margin-bottom: 14px;    
+
+}
+
+.footer-items ul .large-item{
+    color: #fff;
+    font-size: 20px;
+}
+.footer-items ul li a:hover{
+    text-decoration: underline;
+}
